@@ -1,8 +1,8 @@
 # AnDev News
 
-AnDev News started as a personal project to make reading Android Weekley news letters easier. I wanted the ability to read articles in an app and bookmark the ones I found most interesting. I have bene using the app for a few years and have decided I would like to add more to it. Possibly add other news sources, etc. 
+AnDev News started as a personal project to make reading Android Weekly newsletters easier. I wanted the ability to read articles in a native app while bookmarking the ones I found most interesting. I have been using the app for several years and have decided it could become something more by adding new features/news sources and improving existing ones.
 
-I have decided to open source this project with the belief that other developers could have a lot to contribute. Finding time to work on this has become difficult for me but I feel together we can create a centralized source of news for Android that the entire community could benefit from. 
+Open sourcing seemed like a no brainer. Let us create a centralized source of news for Android that the entire community could benefit from. 
 
 ## Goals
 
