@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/baseBackground"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal"
+    android:layout_weight="3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Headline"
+            android:id="@+id/favorite_headline"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/primaryText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this article android stuff happens."
+            android:id="@+id/favorite_summary"
+            android:layout_below="@+id/favorite_headline"
+            android:paddingBottom="4dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/secondaryText"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_article"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brianroper.andevweekly.archive.ArchiveActivity"
+    android:background="@color/baseBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/archive_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation_view"
+        android:animateLayoutChanges="true"
+        android:id="@+id/frame_layout">
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation_view"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@xml/bottom_bar_selector"
+        app:itemTextColor="@xml/bottom_bar_selector"
+        app:menu="@menu/bottom_navigation_view">
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

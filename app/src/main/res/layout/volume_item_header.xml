@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/baseBackground"
+    android:layout_marginStart="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Articles and Tutorials"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/cardTextPrimary"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

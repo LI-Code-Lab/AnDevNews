@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="WeeklyMaterial" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/cardTextPrimary</item>
+        <item name="android:windowBackground">@color/baseBackground</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="AboutMaterial" parent="Theme.Mal.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
