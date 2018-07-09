@@ -16,6 +16,10 @@ Open sourcing seemed like a no brainer. Let us create a centralized source of ne
 * Ability to stream Fragmented podcast. 
 * Feel free to add your ideas
 
+## Play Store
+
+* When the master branch is updated I will update the app on the play store [AnDevNews](https://play.google.com/store/apps/details?id=com.licodelab.andevnews). 
+
 ## License
 
     MIT License
